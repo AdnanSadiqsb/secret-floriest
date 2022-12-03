@@ -1,0 +1,61 @@
+.redColor{
+    color: red !important;
+}
+.greenColor{
+    color: green;
+}
+
+
+.myOrderPage{
+    width: 100vw;
+    max-width: 100%;
+    padding: 0 7vmax;
+    box-sizing: border-box;
+    display: fixed;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+.MyOrderTable{
+    background-color: white;
+
+}
+.MyOrderTable>div{
+    color: rgb(44,44 ,44);
+    border: none;
+ 
+}
+.MyOrderTable>a{
+    color: rgb(44,44 ,44);
+    transition: all 0.5;
+
+}
+.MyOrderTable>a:hover{
+    color: tomato;
+}
+.MuiDataGrid-columnHeader{
+    background-color: tomato;
+    color: white;
+    font-size: 1.3rem;
+
+}
+#myOrdersHeading{
+    text-align: center;
+    transition: all 0.5s;
+    background-color: rgb(44,44 ,44);
+    color: white;
+    padding: 1rem 0rem;
+
+}
+
+@media screen and (max-width:600px) {
+    .myOrderPage{
+   
+        padding: 0 1vmax;
+     
+    
+    
+    }
+    
+}

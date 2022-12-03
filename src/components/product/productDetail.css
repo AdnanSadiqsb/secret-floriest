@@ -1,0 +1,230 @@
+.productDatail{
+background-color: rgb(214,214,214,);
+width: 100vw;
+max-width: 100%;
+padding: 2vmax 6vmax;
+box-sizing: border-box;
+display: flex;
+
+}
+.btn-add-to-cart:disabled{
+    background-color: #00008b75 !important;
+}
+.productDatail > div{
+    margin-left: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    
+    box-sizing: border-box;
+    border: 1px solid white;
+
+}
+ .carsel{
+    width: 100%;
+}
+
+.productDatail img{
+    width: 35rem;
+}
+
+.productDatail>div div:last-child{
+    align-items: flex-start;
+
+}
+.deatailBlock-1 >h2{
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    color: #00008B;
+
+   
+
+}
+.deatailBlock-1 >h2::first-letter{
+    text-transform: capitalize;
+
+   
+
+}
+
+.deatailBlock-1 >p{
+    color: rgb(54, 54, 0.582);
+    margin-top: 1rem;
+
+    
+}
+.deatailBlock-2{
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1vmax;
+}
+.deatailBlock-2-span{
+    color: rgba(54, 54,54, 0.582);
+    font:200  cursive;
+    justify-content: space-between;
+
+}
+.priceDetail-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.priceDetail-cont>h1:last-child{
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+.deatailBlock-3 >h1{
+    color: rgba(17, 17, 17, 0.795);
+    font: 400 1.8vmax ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1vmax 0;
+
+}
+.deatailBlock-3-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+.deatailBlock-3-1-1> button{
+    border: none;
+    background-color: #00008bbd;
+    padding: 0.4rem 1.2rem ;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+
+    transition: all 0.5s;
+
+
+
+}
+.deatailBlock-3-1-1> input{
+    border: none;
+    padding: 0.5vmax;
+    width: 7vmax;
+    text-align: center;
+    outline: none;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.stock-info{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.deatailBlock-4{
+    font-size: 1.4rem;
+    margin-top: 2rem; 
+    min-height: 100px;
+}
+.deatailBlock-4>p{
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+
+}
+.btn-submit-review{
+    margin-top: 3rem;
+    
+}
+
+
+
+
+
+
+
+/* review css */
+.reviewsHeading{
+
+    color: rgba(0, 0, 0, 0.514);
+    font:500 1.4vmax;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+}
+.reviewCard{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 1vmax;
+    padding: 1vmax 2vmax;
+    flex-direction: column;
+    height: 300px;
+    overflow: auto;
+    border-radius: 10px;
+
+}
+.reviewCard> img{
+    width: 5vmax;
+}
+.reviewCard >p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.445);
+    color: #00008B;
+    margin-bottom: 0.4rem;
+
+
+}
+.reviewCard-span{
+    color: rgba(0, 0, 0, 0.445);
+    letter-spacing: 1.1px;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.reviews{
+    width: 90%;
+    display: flex;
+    overflow-x: scroll;
+
+}
+.noReview{
+    text-align: center;
+    color: #00008B;
+
+    font-size: 1.5rem;
+
+}
+@media screen and (max-width:600px) {
+    .productDatail{
+        flex-direction: column;
+        padding: 1vmax;
+
+    }
+    
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+    ::-webkit-scrollbar-thumb {
+    background: #00008B; 
+      border-radius:4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    
+    background: #555; 
+  } 

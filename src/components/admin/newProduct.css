@@ -1,0 +1,38 @@
+#createProductFormImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+#createProductFormImages>img{
+    height: 50px;
+    width: 50px;
+
+}
+.createProductFormImages{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+.createProductFormImages>h1{
+    margin: 1rem;
+}
+.createProductFormImages>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+#createProductBtn{
+    background-color: tomato;
+    color: white;
+    padding: 1rem 2rem;
+}
+#createProductBtn:disabled{
+    background-color: darkgray;
+}

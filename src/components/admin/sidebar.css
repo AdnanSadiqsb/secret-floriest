@@ -1,0 +1,56 @@
+.sideBar{
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+.sideBar>a:first-child{
+    text-decoration: none !important;
+    padding: 0% !important;
+
+}
+.sidebar-logo{
+    margin-top: 2rem;
+    padding: 0%;
+    text-decoration: none;
+}
+.sideBar a{
+    text-decoration: none;
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.574);
+    padding: 1.4rem;
+
+}
+.sideBar a:hover{
+    color: tomato;
+    transform: scale(1.1);
+}
+.sideBar a>p{
+    display: flex;
+    align-items: center;
+}
+.sideBar a>p>svg{
+    margin-right: 0.5rem;
+}
+
+.tree-link{
+    text-decoration: none;
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.574);
+    padding: 1.4rem !important;
+}
+.tree-link:hover{
+    color: tomato;
+    transform: scale(1.1);
+}
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label{
+    background-color: white !important;
+}
+.MuiTreeItem-iconContainer svg {
+    font-size: 30px !important;
+}
+
+
+
+

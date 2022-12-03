@@ -1,0 +1,34 @@
+.productsListConatiner{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.341);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.productListTable div{
+    color: rgba(0, 0, 0, 0.662);
+    border: none !important;
+
+}
+.productListTable a{
+    color: rgba(0, 0, 0, 0.662);
+    transition: all 0.5s;
+
+}
+.productListTable a:hover{
+    color: tomato;
+}
+.productListTable button:hover{
+    color: tomato;
+
+
+}
+.MuiDataGrid-columnHeader{
+    background-color: rgba(42, 41, 41, 0.103);
+    color: tomato;
+    font-size: 1.3rem;
+
+}

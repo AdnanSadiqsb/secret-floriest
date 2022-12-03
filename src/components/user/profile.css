@@ -1,0 +1,117 @@
+
+*{
+    font-family: sans-serif !important;
+}
+.profileConatiner{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    max-width: 100%;
+    background-color: white;
+
+
+}
+.profileConatiner>div{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.profileConatiner>div:first-child>h1{
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.507);
+    font-size: 1.5rem;
+    transform: translateX(-10vmax) translateY(-2vmax);
+
+}
+.profileConatiner>div:first-child>img{
+    width: 20vmax;
+    border-radius: 10%;
+    transition: all 0.5s;
+}
+.profileConatiner>div:first-child>img:hover{
+    transform: scale(1.05);
+}
+.profileConatiner>div:first-child>a{
+    border: none;
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem 1rem;
+    margin: 2vmax;
+    text-align: center;
+    width: 60%;
+    transition: all 0.5s;
+    align-items: center;
+
+}
+
+.profileConatiner>div:last-child{
+    justify-content: space-evenly;
+    padding: 5vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.profileConatiner>div:last-child>div>h4{
+  color: black;
+  font: 400 1.2rem;
+
+}
+
+.profileConatiner>div:last-child>div:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.profileConatiner>div:last-child>div:last-child>a{
+    border: none;
+    background-color: rgb(40, 30, 29);
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem 1rem;
+    margin: 2vmax;
+
+    transition: all 0.5s;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.profileConatiner>div:last-child>div:last-child>a:hover{
+
+    background-color: tomato;
+}
+@media screen and (max-width:600px) {
+    .profileConatiner{
+        flex-direction: column;
+
+    }
+    .profileConatiner>div:last-child{
+        text-align: center;
+        align-items: center;
+    }
+    .profileConatiner>div:last-child>div:last-child {
+      
+        width: 100%;
+    }
+    .profileConatiner>div:first-child>h1 {
+        width: 72%;
+        text-align: right;
+        margin: 2rem auto;
+        
+    }
+    
+element.style {
+}
+.profileConatiner>div:first-child>a {
+    width: 75%;
+}
+    
+}

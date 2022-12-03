@@ -1,0 +1,97 @@
+.dashboard{
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 9;
+    left: 0;
+    right: 0;
+
+}
+.dashbord-heading{
+    margin: auto;
+
+    text-align: center;
+    padding: 1rem;
+
+
+
+}
+.dashboardSummary{
+    margin: 0rem 0rem;
+
+}
+.dashboardSummary>div{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+
+}
+.dashboardSummary>div>p{
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    width: 100%;
+    background-color: #6717b0db;
+
+
+}
+.dashbordsummarybox-2 > a{
+     color: black;
+     text-align: center;
+     background-color:wheat ;
+     text-decoration: none;
+     padding: 1.5rem;
+     display: flex;
+     flex-direction: column;
+     border-radius: 5%;
+     height: 7rem;
+     width: 25%;
+
+}
+.dashbordsummarybox-2 >a:first-child{
+    background-color: tomato;
+    color: white;
+}
+.dashbordsummarybox-2 > a:last-child{
+    background-color: rgba(0, 0, 0, 0.586);
+    color: white;
+}
+.linechart-1{
+    width: 65%;
+}
+
+
+
+.dashboardCharts{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.dountChart-1{
+    margin-right: 2rem;
+}
+@media screen and (max-width:600px) {
+    .dashboardCharts{
+        flex-direction: column;
+    }
+    .linechart-1{
+        width:100% ;
+    }
+    .dashbordsummarybox-2{
+        flex-direction: column;
+    }
+    .dashbordsummarybox-2> a{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    
+}

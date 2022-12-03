@@ -1,0 +1,188 @@
+.cartPage{
+    padding: 5vmax;
+    min-height: 400px;
+}
+
+.cartHeader{
+    background-color: rgb(29, 3, 93);
+    width: 100%;
+    box-sizing: border-box;
+    grid-template-columns: 4fr 2fr 1fr;
+    display: grid;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 1.5px;
+    
+
+
+}
+.cartHeader>p{
+    margin: 10px;
+}
+.cartHeader>P:last-child{
+    text-align: end;
+}
+.cartConatiner{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+    align-items: center;
+    
+
+
+}
+.cartInput{
+    display: flex;
+    align-items:center ;
+   
+
+
+}
+.cart-unit-price{
+    margin: 1rem 0rem;
+}
+.cart-unit-title{
+    color: #00008bbd !important;
+    font-weight: bold;
+}
+.cartInput>button{
+    border: none;
+    background-color: #00008bbd;
+    padding: 0.2rem 0.6rem ;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+
+    transition: all 0.5s;
+}
+.cartInput>input{
+    border: none;
+    padding: 0.5vmax;
+    width: 7vmax;
+    text-align: center;
+    outline: none;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.74);
+}
+.cartSubTotal{
+    font-size: 1.2rem !important;
+    color: #00008bbd;
+}
+.grossProfit{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+
+}
+
+.grossProfitBox{
+    border-top: 7px solid #00008bbd;
+    margin: 2vmax 0vmax;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+
+}
+.checkOutBox{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.cartSubTotal{
+    
+    font-size: 1.2rem;
+    text-align: end;
+    margin-right: 1vmax;
+    
+
+}
+
+.grossProfitBox{
+    margin-top: 2rem;
+}
+.grossProfitBox>p{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #00008bbd;
+}
+.emptyCart{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+
+
+}
+.emptyCart>svg{
+    color:#00008bbd;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.emptyCart>a{
+    color: #00008bbd;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 1px solid #00008bbd;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.emptyCart>h5{
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 1rem;
+    opacity: 0.6;
+
+}
+
+
+@media  screen and (max-width:600px) {
+    .cartPage{
+        padding: 0rem 0rem;
+    }
+    .cartHeader{
+        margin-bottom: 0.2rem;
+    }
+    .grossProfit{
+        grid-template-columns: 0fr 1fr;
+
+    }
+    .checkOutBox{
+        justify-content: center;
+    }
+    .checkOutBox>button
+    {
+        width: 70%;
+        padding: 0.3rem 0rem;
+        border-radius: 15px;
+    }
+    .grossProfitBox{
+        margin-bottom: 0rem;
+    }
+    .cartSubTotal{
+        font-size: 1rem;
+    }
+    .cartInput>input{
+        border: none;
+        padding: 0.5vmax;
+        width: 2rem;
+        
+    }
+    .cart-unit-price{
+        margin: 0rem 0rem;
+    }
+    
+}

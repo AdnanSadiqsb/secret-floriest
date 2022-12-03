@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,100&family=Nunito+Sans:wght@200;400&family=Patua+One&display=swap');
+
+
+.heading{
+    font-size: 1.8rem;
+    color: #00308F;
+    transform: translateY(-58%);
+    padding: 0px 30px;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(103, 9, 218, 0.466);
+
+}
+.items-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+
+}
+.line{
+    width: 100%;
+    border-bottom:2px solid #00308F;
+    
+    
+}
+.items-section{
+    padding: 0rem 9rem;
+
+}
+
+.items-section{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+.item-card{
+    text-decoration:none ;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.2rem;
+    
+
+} 
+
+#item-pic:hover{
+    
+    transform: scale(1.2);
+    filter: brightness(80%)
+}
+#item-pic{
+    transition: transform 0.5s ease-in;
+
+}
+.item-image{
+    cursor: pointer;
+    overflow: hidden;
+    width: 280px;
+    height: 370px;
+    border-radius: 5px;
+}
+.Reviews-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.price-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.price-cont>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productName{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.755);
+
+}
+.Reviews-cont>p{
+    color: rgba(0, 0, 0, 0.518);
+}
+.ActualPrice{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.518);
+    margin-left: 5px;
+}
+
+.status{
+    color: rgb(9, 204, 9);
+    font-weight: bold;
+}
+#item-pic{
+    width: 100%;
+}
+.btn-next{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background:#240A6F;
+    border-radius: 100%;
+    border: none;
+    font-size: 2rem;
+    color: #fafafa;
+    font-weight: 700;
+    box-shadow: #240A6F 0px 2px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:900px) {
+    .items-container{
+        margin-top: 1.5rem;
+    }
+    .items-section{
+        padding: 0rem 1rem;
+    
+    }
+    .item-card{
+        width: 150px;
+    }
+    .item-image{
+        cursor: pointer;
+        overflow: hidden;
+        width: 150px;
+        height: 200px;
+    }
+    .heading{
+        font-size: 1.4rem !important;
+        padding: 0rem 10px !important;
+    }
+    
+#item-pic{
+    width: 100%;
+}
+.Reviews-cont>p{
+    font-size: 0.8rem;
+}
+.status{
+    font-size: 0.7rem;
+}
+.ActualPrice{
+    font-size: 0.8rem;
+}
+
+.next-btn-div>img{
+    cursor: pointer;
+    width: 50px !important;
+
+}
+.pre-btn-div>img{
+    cursor: pointer;
+    width: 30px !important;
+}
+.album-container {
+
+    gap: 0.5rem !important;
+    padding: 0rem 1rem !important;
+}
+
+.info-container{
+    padding: 0rem 1rem !important;
+    gap: 1rem !important;
+}
+.info-container>h1{
+    font-size: 1.4rem !important;
+    text-align: center;
+}
+.info-container>p{
+    line-height: 20px;
+    font-size: 0.8rem;
+    text-align: start !important;
+    padding: 0rem !important;
+}
+.next-btn-div{
+    transform: translateX(50%) !important;
+}
+.pre-btn-div{
+    transform: translateX(-90%) !important;
+}
+}
+.btn-more{
+    padding: 0.5rem 2rem;
+    border: 1px solid #00008B;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: 10px;
+    color: #00008B;
+
+    
+}
+.btn-more:hover{
+    background: rgb(38,9,110);
+background: linear-gradient(90deg, rgba(38,9,110,1) 24%, rgba(2,17,120,1) 82%);
+    color: white;
+}
+
+/* bes t selling csss=============================== */
+
+.best-selling-cont{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    position: relative;
+  
+    margin: auto;
+}
+.selling-sections{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    gap: 2rem;
+
+}
+.move-card{
+    margin-left: 0%;
+}
+.item-card{
+    transition: 0.5s ease;
+}
+.next-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: 0;
+    right: 0%;
+    bottom: 0%;
+    transform: translateX(100%);
+
+}
+.next-btn-div>img{
+    cursor: pointer;
+    width: 100px;
+
+}
+.pre-btn-div>img{
+    cursor: pointer;
+    width: 60px;
+}
+.pre-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100%);
+    position:absolute;
+    top: 0;
+    left: 0%;
+    bottom: 0%;
+}
+
+
+/* album css-============================================= */
+.album-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 2rem;
+    padding: 0rem 9rem;
+
+
+}
+.album-item{
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.album-image{
+    width: 100%;
+    transition: transform 0.5s ease, all 0.5s ease ;
+
+
+}
+.album-image:hover{
+    transform: scale(1.2);
+}
+
+/* info csss=================================== */
+
+.info-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0rem 9rem;
+}
+.info-container>h1{
+    font-weight: 300;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+.info-container>p{
+    padding: 0rem 3rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    line-height:25px;
+    color: rgba(0, 0, 0, 0.723);
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+.info-container>button{
+    padding: 0.5rem 2rem;
+    border: 1px solid #00008B;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: 10px;
+    color: #00008B;
+
+}
+.info-container>button:hover{
+    background: rgb(38,9,110);
+background: linear-gradient(90deg, rgba(38,9,110,1) 24%, rgba(2,17,120,1) 82%);
+    color: white;
+}
+
+
+
+
+
+

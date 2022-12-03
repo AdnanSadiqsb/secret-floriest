@@ -1,0 +1,14 @@
+.carsel-image{
+    width: 100%;
+}
+.carousel-cont{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+
+    .carsel-image{
+        height: 250px;
+    }
+}
